@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Roboto:ital,wght@0,300;0,700;1,400;1,500&display=swap');
+
+ body{
+   
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.nav {
+    height: 100px;
+    background-color: lightpink;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: beige;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 90px;
+}
+
+img {
+    transition: all 1s;
+}
+
+.nav-ul-li {
+    transition: all 1s;
+}
+
+.nav-ul-li:hover{
+    transform: scale(1.1);
+    background-color: rgb(240, 177, 228);
+    border-radius: 40px;
+}
+
+img:hover{
+    transform: rotate(3dg);
+    border-radius: 20px;
+}
+
+.nav-logo{
+    transition: all 1s;
+}
+
+.nav-logo:hover{
+    transform: scale(1.1);
+    background-color: beige;
+    border-radius: 20px;
+}
+
+img:hover{
+    transform: rotate (3dg);
+    border-radius: 20px;
+}
+
+.nav-logo{
+    transition: all 1s;
+}
+
+.nav-logo:hover{
+    transform: scale(1.1);
+}
